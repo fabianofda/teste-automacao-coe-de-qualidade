@@ -1,0 +1,15 @@
+{
+  "name": "teste-automacao-coe-de-qualidade",
+  "version": "1.0.0",
+  "description": "projeto de automação de testes, com as tecnologias nodes, cypress e javascript Web e API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabiano Dias de Andrade",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.2",
+    "cypress-plugin-api": "^2.11.1"
+  }
+}

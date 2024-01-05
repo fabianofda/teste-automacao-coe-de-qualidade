@@ -1,0 +1,18 @@
+{
+    "emptySearch": {
+      "keyword": "",
+      "alertMessage": "Please enter a search keyword",
+      "resultsMessage": "0 results have been found."
+    },
+    "nonExistentProduct": {
+      "keyword": "sapato",
+      "alertMessage": "No results were found for your search \"sapato\"",
+      "resultsMessage": "0 results have been found."
+    },
+    "specificProduct": {
+      "keyword": "Blouse",
+      "expectedProduct": "Blouse",
+      "resultsMessage": "1 result has been found"
+    }
+  }
+  

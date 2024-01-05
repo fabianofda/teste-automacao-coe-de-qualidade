@@ -1,0 +1,22 @@
+{
+  "product1": {
+    "name": "Faded Short Sleeve T-shirts",
+    "sku": "demo_1",
+    "size": "S",
+    "color": "Orange",
+    "availability": "In stock",
+    "price": "$17",
+    "quantity": "1",
+    "total": "$17"
+  },
+  "product2": {
+    "name": "Blouse",
+    "sku": "demo_2",
+    "size": "S",
+    "color": "Black",
+    "availability": "In stock",
+    "price": "$27",
+    "quantity": "1",
+    "total": "$27"
+  }
+}
