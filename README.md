@@ -34,9 +34,9 @@ npx cypress open
 npx cypress run 
 ```
 
-<hr>
 # BDD 
-<br>
+<hr>
+
 ![Testes disponíveis](BDD.md)
 
 
