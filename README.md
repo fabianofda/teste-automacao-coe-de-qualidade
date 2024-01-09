@@ -36,3 +36,4 @@ npx cypress run
 
 <hr>
 [Testes disponíveis em BDD.md](BDD.md)
+
