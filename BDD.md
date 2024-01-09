@@ -1,6 +1,6 @@
 Os casos de teste planejados têm como finalidade testar as funcionalidades e garantir a qualidade do site automationpractice. Cada caso de teste específico se destina a verificar um cenário particular dentro do sistema, e a finalidade geral dos testes é garantir que o software funcione conforme o esperado, cumprindo os requisitos de negócios e fornecendo uma experiência confiável aos usuários.
 
-# BDD testes WEB
+## Testes WEB
 
 ## Cart
 Os testes nesse conjunto verificam produtos inclusos na sessao de pagamentos.
@@ -70,7 +70,7 @@ Os testes nesse conjunto verificam a funcionalidade busca de produtos.
     - Entao a busco do "<produto>" é realizada com sucesso
 
 
-# BDD teste API
+## Teste API
 
 ## GET
 O teste deste conjuto tem como finalidade a 'Validação da resposta da API Trello'
