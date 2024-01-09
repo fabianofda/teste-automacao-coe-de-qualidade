@@ -35,6 +35,7 @@ npx cypress run
 ```
 
 <hr>
- - ![Testes disponíveis](/BDD.md)
+ 
+![Testes disponíveis](BDD.md)
 
 
