@@ -31,7 +31,7 @@ npx cypress run
 
 ## Roadmap de automação de testes:
 
-[Testes do projeto](BDD.md)
+![Alt Text](image/bdd.png) [Testes do projeto](BDD.md)
 
 ---
 ![Alt Text](image/roadmap.png)
