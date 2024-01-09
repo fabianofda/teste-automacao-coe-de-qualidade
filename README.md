@@ -23,15 +23,12 @@ npx cypress open
 npx cypress run 
 ```
 
----
-
-### Roadmap de automação de testes:
 
 ---
 
 ![Alt Text](image/roadmap.png)
 
----
+
 
 <p align="center">
   <h4>Testes do projeto</h4>
