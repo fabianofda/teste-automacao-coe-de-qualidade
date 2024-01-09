@@ -35,4 +35,4 @@ npx cypress run
 ```
 
 <hr>
-Testes disponível em: [Link para os testes BDD](tests/bdd.md)
+Testes disponível em: [Link para os testes BDD](BDD.md)
