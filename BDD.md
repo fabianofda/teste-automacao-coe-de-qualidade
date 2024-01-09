@@ -76,6 +76,6 @@ Os testes nesse conjunto verificam a funcionalidade busca de produtos.
 O teste deste conjuto tem como finalidade a 'Validação da resposta da API Trello'
 
 - ### Deve validar o conteúdo da chave list
-  Dado que envio um get para o <endpoint> da API Trello
-  Quando a requisao é processada com sucesso
-  Entao recebo status code OK e body com resultado da requisiao.
+    - Dado que envio um get para o <endpoint> da API Trello
+    - Quando a requisao é processada com sucesso
+    - Entao recebo status code OK e body com resultado da requisiao.
