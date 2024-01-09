@@ -36,6 +36,6 @@ npx cypress run
 
 <hr>
 # BDD 
-- [Testes disponíveis](BDD.md)
+[Testes disponíveis](BDD.md)
 
 
