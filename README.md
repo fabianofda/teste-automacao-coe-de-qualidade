@@ -33,7 +33,7 @@ npx cypress run
 
 [Testes do projeto](BDD.md)
 
-<hr>
+---
 ![Alt Text](image/roadmap.png)
 
 
