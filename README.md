@@ -32,11 +32,13 @@ npx cypress run
 
 <p align="left">
   <img src="image/bdd.png" alt="Alt Text" />
-
-<h2 align="center"><a href="BDD.md">Testes do projeto</a></h2>
-
 </p>
+
+<h6 align="center"><a href="BDD.md">Testes do projeto</a></h6>
+
+
 ---
+
 ![Alt Text](image/roadmap.png)
 
 
