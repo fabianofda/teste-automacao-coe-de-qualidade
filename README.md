@@ -35,4 +35,4 @@ npx cypress run
 ```
 
 <hr>
-Curso disponível em https://gitlab.inlabs.app/fabiano.andrade/teste-automacao-coe-de-qualidade
+Testes disponível em: [Link para os testes BDD](tests/bdd.md)
