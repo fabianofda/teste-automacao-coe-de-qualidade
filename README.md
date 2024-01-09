@@ -22,11 +22,7 @@ npx cypress open
 ```
 npx cypress run 
 ```
-### Ambiente de Testes:
-
--   url: http://www.automationpractice.pl
--   email: teste2021@teste.com.br
--   senha: teste
+--
 
 ### Roadmap de automação de testes:
 
@@ -36,7 +32,6 @@ npx cypress run
     <img src="image/bdd.png" alt="Alt Text" />
   </a>
 </p>
-
 
 
 ---
