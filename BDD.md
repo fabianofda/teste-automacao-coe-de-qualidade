@@ -43,7 +43,7 @@ Os testes nesse conjunto verificam a funcionalidade de login.
     - Quando submento sem informar a senha
     - Entao Uma mensagem de erro deve ser exibida, "Password is required."
 
-## products
+## Products
 Os testes nesse conjunto verificam a funcionalidade de inclusão de compras no carrinho.
 
 - ### Deve incluir um produto no carrinho
@@ -76,6 +76,6 @@ Os testes nesse conjunto verificam a funcionalidade busca de produtos.
 O teste deste conjuto tem como finalidade a 'Validação da resposta da API Trello'
 
 - ### Deve validar o conteúdo da chave list
-    - Dado que envio um get para o <endpoint> da API Trello
-    - Quando a requisao é processada com sucesso
-    - Entao recebo status code OK e body com resultado da requisiao.
+  Dado que envio um get para o <endpoint> da API Trello
+  Quando a requisao é processada com sucesso
+  Entao recebo status code OK e body com resultado da requisiao.
