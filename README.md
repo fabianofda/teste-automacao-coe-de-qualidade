@@ -34,7 +34,9 @@ npx cypress open
 npx cypress run 
 ```
 
-### BDD do projeto: [Testes disponíveis](BDD.md)
+### BDD
+
+[Testes do projeto disponíveis](BDD.md)
 
 
 
