@@ -30,11 +30,14 @@ npx cypress run
 
 ### Roadmap de automação de testes:
 
-<p align="left">
-  <img src="image/bdd.png" alt="Alt Text" />
+<p align="center">
+  <a href="BDD.md">
+    <img src="image/bdd.png" alt="Alt Text" />
+  </a>
 </p>
 
 <h6 align="center"><a href="BDD.md">Testes do projeto</a></h6>
+
 
 
 ---
