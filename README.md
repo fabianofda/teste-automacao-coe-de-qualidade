@@ -2,12 +2,6 @@
 
 Repositório teste-automacao-coe-de-qualidade e2e
 
-## Ambiente de Testes:
-
--   url: http://www.automationpractice.pl
--   email: teste2021@teste.com.br
--   senha: teste
-
 ## Stacks
 - Cypress
 - Javascript
@@ -28,15 +22,20 @@ npx cypress open
 ```
 npx cypress run 
 ```
+### Ambiente de Testes:
 
-## Roadmap de automação de testes:
+-   url: http://www.automationpractice.pl
+-   email: teste2021@teste.com.br
+-   senha: teste
 
-<p align="center">
+### Roadmap de automação de testes:
+
+<p align="left">
   <img src="image/bdd.png" alt="Alt Text" />
-</p>
 
 <h2 align="center"><a href="BDD.md">Testes do projeto</a></h2>
 
+</p>
 ---
 ![Alt Text](image/roadmap.png)
 
