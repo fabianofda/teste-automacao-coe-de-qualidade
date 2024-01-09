@@ -8,11 +8,6 @@ Repositório teste-automacao-coe-de-qualidade e2e
 -   email: teste2021@teste.com.br
 -   senha: teste
 
-## Roadmap de automação de testes:
-
-![Alt Text](image/roadmap.png)
-
-
 ## Stacks
 - Cypress
 - Javascript
@@ -34,7 +29,9 @@ npx cypress open
 npx cypress run 
 ```
 
-### BDD
+## Roadmap de automação de testes:
+
+![Alt Text](image/roadmap.png)
 
 [Testes do projeto disponíveis](BDD.md)
 
