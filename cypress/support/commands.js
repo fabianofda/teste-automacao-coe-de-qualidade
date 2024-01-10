@@ -94,9 +94,9 @@ Cypress.Commands.add('clickCartNavigationButton', () => {
 })
 
 Cypress.Commands.add('GET', (url) => {
-    const base= "https://api.trello.com/1"
+    // const base= "https://api.trello.com/1"
 
-    cy.api(base +url).then((response) => {
+    cy.api(Cypress.env('apiUrl') + url).then((response) => {
         return response
     })
     
