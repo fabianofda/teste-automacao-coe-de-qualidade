@@ -1,0 +1,23 @@
+name: Cypress Tests
+
+on: [push]
+
+jobs: 
+  cypress-electron-tests:
+    runs-on: ubunt-latest
+    steps: 
+      - name: Get code
+        uses: actions/checkout@v4.1.1
+
+      - name: install dependencies  
+        run: npm install
+
+      - name: Run e2e tests
+        run: npx cypress run 
+
+
+
+
+
+        
+      
