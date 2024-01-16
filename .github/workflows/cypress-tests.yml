@@ -4,7 +4,7 @@ on: [push]
 
 jobs: 
   cypress-electron-tests:
-    runs-on: ubunt-latest
+    runs-on: ubuntu-latest
     steps: 
       - name: Get code
         uses: actions/checkout@v4.1.1
