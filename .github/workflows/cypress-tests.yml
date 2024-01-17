@@ -27,14 +27,16 @@ jobs:
       - name: Run e2e tests
         run: ${{ github.event.inputs.cli }}
 
-        
-      - name: Publish Allure reports
-        run: |
-          npx run allure:generate
-          npx run allure:report
+  allure-pr:
+    name: Check Allure Report Action on Pull Request 
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2       
 
-      - name: Upload reports
-        uses: actions/upload-artifact@v2
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
         with:
-          name: allure-reports
-          path: allure-report
+          allure_results: allure-results
+          allure_history: allure-history
+          keep_reports: 1
