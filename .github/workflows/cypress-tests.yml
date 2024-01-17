@@ -7,7 +7,7 @@ on:
         description: Run by cypress command line
         default: npx cypress run --env allure=true
 
-jobs: 
+jobs:
   cypress-electron-tests:
     runs-on: ubuntu-latest
     steps:
@@ -21,6 +21,9 @@ jobs:
       - name: Get code
         uses: actions/checkout@v4.1.1
 
+      - name: Create allure-results/history directory
+        run: mkdir -p allure-results/history
+
       - name: Install dependencies  
         run: npm install
 
@@ -28,10 +31,14 @@ jobs:
         run: ${{ github.event.inputs.cli }}
 
   allure-pr:
-    name: Check Allure Report Action on Pull Request 
+    name: Generate and Publish Allure Report
     runs-on: ubuntu-latest
+    needs: cypress-electron-tests
     steps:
       - uses: actions/checkout@v2       
+
+      - name: Create allure-results/history directory
+        run: mkdir -p allure-results/history
 
       - name: Allure Report action from marketplace
         uses: simple-elf/allure-report-action@master
