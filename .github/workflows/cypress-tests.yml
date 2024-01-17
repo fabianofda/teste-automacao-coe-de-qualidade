@@ -30,8 +30,8 @@ jobs:
         
       - name: Publish Allure reports
         run: |
-          npm run allure:generate
-          npm run allure:report
+          npx run allure:generate
+          npx run allure:report
 
       - name: Upload reports
         uses: actions/upload-artifact@v2
