@@ -5,7 +5,7 @@ on:
     inputs:
       cli:
         description: Run by cypress command line
-        default: npx cypress run
+        default: npx cypress run --env allure=true
 
 jobs: 
   cypress-electron-tests:
