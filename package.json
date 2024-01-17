@@ -9,6 +9,8 @@
   "author": "Fabiano Dias de Andrade",
   "license": "ISC",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.1",
+    "allure-commandline": "^2.26.0",
     "cypress": "^13.6.2",
     "cypress-plugin-api": "^2.11.1"
   }
